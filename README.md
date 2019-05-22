@@ -1,3 +1,7 @@
+# Change
+`gson/src/main/java/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java` +132
+change `if (fieldValue != null || !isPrimitive)` to `if (fieldValue != null)`
+
 # Gson
 
 Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
